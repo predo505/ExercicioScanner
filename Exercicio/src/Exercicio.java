@@ -14,15 +14,15 @@ public class Main{
 
         System.out.print("Digite sua idade: ");
         int idadeAtual = scanner.nextInt();
-        int idadeDaqui = 50 - idadeAtual;
+        int idadeFuturo = 50 - idadeAtual;
 
         System.out.print("Digite sua altura em metros: ");
         double alturaMetros = scanner.nextDouble();
         double alturaCentimetros = alturaMetros * 100;
         System.out.println(" ");
 
-        System.out.println("Olá, " + nome + "! Em " + idadeDaqui + " anos, você terá 50 anos. ");
-        System.out.print("Sua altura em centímetros é: " + alturaCentimetros + " cm.");
+        System.out.println("Olá, " + nome + "! Em " + idadeFuturo + " anos, você terá 50 anos. ");
+        System.out.println("Sua altura em centímetros é: " + alturaCentimetros + " cm.");
         scanner.close();
     }
 }
