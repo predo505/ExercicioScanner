@@ -22,7 +22,7 @@ public class Main{
         System.out.println(" ");
 
         System.out.println("Olá, " + nome + "! Em " + idadeDaqui + " anos, você terá 50 anos. ");
-        System.out.println("Sua altura em centímetros é: " + alturaCentimetros + " cm.");
+        System.out.print("Sua altura em centímetros é: " + alturaCentimetros + " cm.");
         scanner.close();
     }
 }
